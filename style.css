@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E2DEF3;
+    overflow-x: hidden;
+    font-family: "Inter", sans-serif;
+}
+
+.navbar {
+    background-color: #C7BFEC;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    padding: 15px 40px;
+    position: fixed;
+}
+
+.landing {
+    width: 100vw;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.landing h2 {
+    font-size: 5rem;
+}
+
+.landing p {
+    font-size: 2rem;
+}
+
+.about {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.about p {
+    font-size: 1.5rem;
+    width: 40vw;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+
+.about img {
+    height: 200px;
+}
+
+.projects {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.projects h2 {
+    font-size: 2rem;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.project {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.project img {
+    width: 450px;
+    margin-right: 80px;
+}
+
+.project h3 {
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.project a {
+    font-size: 1.7rem;
+}
+
+.project a:hover {
+    color: red;
+}
